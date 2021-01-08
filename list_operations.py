@@ -70,11 +70,13 @@ def last_five(input_list):
     For example:
 
     >>> last_five([0, 3, 6, 9, 12, 15, 18, 21, 24, 27])
-    [15, 18, 21, 24, 27]
+    [15, 18, 21, 24, 27] 
 
     """
-
-    return []
+    # Test fails - checked result on repl.it and it passed, unsure of issue
+    # result = input_list[-5:]
+    # return result
+    pass
 
 
 def middle(input_list):
@@ -86,8 +88,8 @@ def middle(input_list):
     [6, 9, 12, 15, 18, 21]
 
     """
-
-    return []
+    result = input_list[2:-2]
+    return result
 
 
 def inner_four(input_list):
