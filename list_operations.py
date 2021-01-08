@@ -183,8 +183,9 @@ def delete_third_and_seventh(input_list):
     True
 
     """
-
-    pass
+    input_list[6:7] = []
+    input_list[2:3] = []
+    return
 
 
 def delete_middle(input_list):
