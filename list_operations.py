@@ -73,10 +73,8 @@ def last_five(input_list):
     [15, 18, 21, 24, 27] 
 
     """
-    # Test fails - checked result on repl.it and it passed, unsure of issue
-    # result = input_list[-5:]
-    # return result
-    pass
+ 
+    return input_list[-5:]
 
 
 def middle(input_list):
@@ -201,11 +199,12 @@ def delete_middle(input_list):
     True
 
     """
+    input_list[2:-2] = []
+    return
+    
 
-    pass
 
-
-# This is the part were we actually run the doctests.
+# This is the part where we actually run the doctests.
 
 if __name__ == '__main__':
     import doctest
