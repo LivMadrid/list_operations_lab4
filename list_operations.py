@@ -21,8 +21,8 @@ def tail(input_list):
     ['Feb', 'Mar']
 
     """
-
-    return []
+    result = input_list[1:]
+    return result
 
 
 def last(input_list):
